@@ -48,6 +48,7 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    margin-bottom: 49px;
 }
 
 .nav-bar::before{
@@ -68,6 +69,10 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover{
+    font-size: 25px;
+}
+
 #Home{
     color: #FF5400;
     text-align: center;
@@ -77,6 +82,10 @@ nav a{
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+}
+
+#Home:hover{
+    font-size: 25px;
 }
 
 .nav-menu{
@@ -91,7 +100,180 @@ nav a{
     display: none;
 }
 
+.banner{
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group 13 (1) (1).png");
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
 
+.banner h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner p{
+    width: 676px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.slate{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.slate select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.slate input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.slate button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.slate button:hover{
+    cursor: pointer;
+    background: #FFF;
+    color: #FF5400;
+    border: 2px solid #FF5400;
+}
+
+.pop-tours{
+    display: flex;
+    width: 1170px;
+    height: 550px;
+    margin: auto;
+    margin-bottom: 100px;
+    gap: 75px;
+}
+
+.pop-tours .left-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.left-col h3{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.pop-up, .pop-dn{
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.pop-des ul{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    gap: 16px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pop-des ul li{
+    width: 577px;
+    margin-bottom: 16px;
+}
+
+.left-col button{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.left-col button:hover{
+    cursor: pointer;
+    background: #FFF;
+    color: #FF5400;
+    border: 2px solid #FF5400;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -101,12 +283,14 @@ nav a{
     }
 
     header{
-        width: 500px;
+        width: 375px;
         margin: auto;
     }
 
     .nav-bar{
-        padding: 15px 5%;
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-between;
     }
 
     .nav-menu{
@@ -159,4 +343,91 @@ nav a{
         transition-delay: calc(.075s * var(--i));
     }
 
+    .banner{
+        width: 335px;
+        height: 483px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .banner h1{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .banner p{
+        width: 304px;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; /* 150% */
+    }
+
+    .slate{
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+    }
+
+    .slate input{
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+    }
+
+    .slate select{
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+    }
+
+    .slate button{
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+    }
+
+    .pop-tours{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .pop-up, .pop-dn{
+        width: 335px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .pop-des ul li{
+        width: 335px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .right-col img{
+        width: 335px;
+        height: 342px;
+        text-align: center;
+        align-items: center;
+    }
+    
 }
