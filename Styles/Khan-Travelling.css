@@ -110,7 +110,7 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .banner h1{
@@ -200,7 +200,7 @@ nav a:hover{
     width: 1170px;
     height: 550px;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     gap: 75px;
 }
 
@@ -275,8 +275,680 @@ nav a:hover{
     border: 2px solid #FF5400;
 }
 
+.destination{
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    margin: auto;
+    margin-bottom: 100px;
+    align-items: center;
+}
 
-@media screen and (max-width: 576px) {
+.destination h3{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.destination p{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.destination a{
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.destination a:hover{
+    color: #FF5400;
+}
+
+.img-up{
+    margin-top: 48px;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.img-mid{
+    margin-bottom: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.img-dn{
+    margin-bottom: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.img-up:hover{
+    cursor: pointer;
+    color: #FF5400;
+}
+
+.img-mid:hover{
+    cursor: pointer;
+    color: #FF5400;
+}
+
+.img-dn:hover{
+    cursor: pointer;
+    color: #FF5400;
+}
+
+#img-1{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 5.png");
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+}
+
+#img-2{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 8.png");
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+}
+
+#img-3{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 6.png");
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+}
+
+#img-4{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 7.png");
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+}
+
+#img-5{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 9.png");
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+}
+
+#img-6{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 11.png");
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+}
+
+#img-7{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 10.png");
+    width: 673px;
+    height: 300px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+}
+
+.choice{
+    width: 1170px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.choice h3{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.choice-intro p{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.box-1{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    border: none;
+}
+.box-2{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+    border: none;
+}
+.box-3{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+    border: none;
+}
+
+.choice-box p{
+    width: 486px;;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.choice-box h4{
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.up-box{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.dn-box{
+    display: flex;
+    justify-content: center;
+}
+
+.deals-dis{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.deals-dis-intro{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.deals-dis-intro h3{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: auto;
+    margin-bottom: 24px;   
+}
+
+.deals-dis-intro p{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.deals{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.deal-1,.deal-3{
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url("../Images/Group 39.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 56px;
+}
+
+.deal-2{
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url("../Images/Group 40.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 56px;
+}
+
+
+.deal-box{
+    width: 579px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding-top: 50px;
+    padding-left: 50px;
+    border: none;
+}
+
+.deal-btn button{
+    width: 210px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deal-btn button:hover{
+    color: #FF5400;
+    border: 2px solid #FF5400;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.deal-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deal-info i{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FF5400;
+}
+
+.deal-box h4{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.deal-box p{
+    width: 452px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.deal-box h5{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deals button{
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deals button:hover{
+    cursor: pointer;
+    background: #FFF;
+    color: #FF5400;
+    border: 2px solid #FF5400;
+}
+
+.ad-vid{
+    width: 1170px;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 28px;
+}
+
+.ad-des h3{
+    width: 448px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.ad-des p{
+    width: 532px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.ad-des ul li{
+    width: 518px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.ad-des button{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.ad-des button:hover{
+    background: #FFF;
+    color: #FF5400;
+    border: 2px solid #FF5400;
+    cursor: pointer;
+}
+
+.ad-vid .vid{
+    width: 610px;
+    height: 424px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.sub{
+    display: flex;
+    width: 1170px;
+    gap: 24px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.sub-box{
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 41px;
+}
+
+.sub-box h5{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.sub-box p{
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.sub-box hr{
+    margin-bottom: 24px;
+}
+
+.sub-in{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sub-in input{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.sub-in button{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sub-in button:hover{
+    background: #FFF;
+    color: #FF5400;
+    border: 2px solid #FF5400;
+    cursor: pointer;
+}
+
+.sub-offer{
+    width: 672px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url("../Images/Rectangle 8 (1).png"), lightgray 50% / cover no-repeat;
+}
+
+.offer-box{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    border: none;
+    position: relative;
+    left: 342px;
+    top: 255px;
+}
+
+.offer-box:hover{
+    cursor: pointer;
+}
+
+.offer-box p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.offer-box h3{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer{
+    width: 1440px;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+    padding-left: 284px;
+    padding-right: 284px;
+}
+
+footer .motto{
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 33px;
+}
+
+footer .brands{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.brands i{
+    width: 100%;
+    height: 100%;
+}
+
+footer hr{
+    width: 872px;
+    height: 1px;
+}
+
+footer .motto-end{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
 
     body{
         width: 100%;
@@ -317,7 +989,7 @@ nav a:hover{
         position: absolute;
         top: 100px;
         height: 0;
-        width: 440px;
+        width: 375px;
         background: #FF5400;
         transition: .3s ease;
         overflow: hidden;
@@ -429,5 +1101,376 @@ nav a:hover{
         text-align: center;
         align-items: center;
     }
+
+    .destination{
+        margin: auto;
+        margin-top: 1100px;
+        width: 375px;
+        margin-bottom: 24px;
+    }
+
+    .destination p{
+        width: 309px;
+    }
+
+    .destination a{
+        margin: auto;
+        margin-top: 75px;
+    }
+
+    #img-1{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 5.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #img-2{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 8.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #img-3{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 6.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #img-4{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 7.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #img-5{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 9.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    #img-6{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 11.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #img-7{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle 10.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .img-up{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-mid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-dn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-up:hover{
+        cursor: pointer;
+        color: #FF5400;
+    }
+    
+    .img-mid:hover{
+        cursor: pointer;
+        color: #FF5400;
+    }
+    
+    .img-dn:hover{
+        cursor: pointer;
+        color: #FF5400;
+    }
+
+    .choice{
+        width: 335px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .choice-intro p{
+        width: 309px;
+    }
+
+    .box-1{
+        width: 335px;
+        height: 335px;
+        border: none;
+    }
+    .box-2{
+        width: 335px;
+        height: 335px;
+        border: none;
+    }
+    .box-3{
+        width: 335px;
+        height: 335px;
+        border: none;
+    }
+
+    .up-box{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+    
+    .dn-box{
+        display: flex;
+        justify-content: center;
+    }
+    .choice-box img{
+        width: 48px;
+        height: 48px;
+    }
+
+    .choice-box p{
+        width: 271px;
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .deals-dis{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .deals{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .deals-dis-intro p{
+        width: 309px;
+    }
+
+    .deal-1,.deal-2,.deal-3{
+        width: 370px;
+        height: 500px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: url("../Images/Group 39.png"), lightgray 50% / cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 80px;
+    }
+
+    .deal-box{
+        width: 330px;
+        height: 400px;
+        flex-shrink: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+    }
+    .deal-box .p{
+        width: 300px;
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+    }
+
+    .ad-vid{
+        width: 375px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .ad-vid h3{
+        width: 335px;
+    }
+
+    .ad-vid p{
+        width: 335px;
+    }
+
+    .ad-des ul li{
+        width: 335px;
+    }
+
+    .ad-vid .vid{
+        width: 335px;
+        height: 200px;
+        flex-shrink: 0;
+    }
+
+    .ad-vid{
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-box{
+        width: 335px;
+        height: 450px;
+        flex-shrink: 0;
+    }
+
+    .sub-box p{
+        width: 250px;
+    }
+
+    .sub-in input{
+        width: 250px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .sub-in button{
+        width: 250px;
+    }
+
+    .sub{
+        display: flex;
+        flex-direction: column;
+        width: 335px;
+    }
+
+    .sub-offer{
+        width: 335px;
+        height: 300px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: url("../Images/Rectangle 8 (1).png"), lightgray 50% / cover no-repeat;
+        margin: auto;
+    }
+
+    .offer-box{
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        left: 117px;
+        top: 190px;
+    }
+
+    .offer-box p{
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 15.854px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .offer-box h3{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 21.138px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    footer{
+        width: 100%;
+        height: 600px;
+        flex-shrink: 0;
+        background: rgba(19, 19, 24, 0.05);
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    footer .logo img{
+        width: 28.724px;
+        height: 33.516px;
+        flex-shrink: 0;
+    }
+
+    footer .logo h3{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .logo span{
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    footer .motto{
+        width: 287px;
+        color: #5A5A5D;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+    }
+
+    footer hr{
+        width: 335px;
+    }
+
+    footer .motto-end{
+        color: #131318;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+
+
     
 }
