@@ -67,6 +67,7 @@ nav a{
     line-height: normal;
     margin-left: 44px;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 nav a:hover{
@@ -82,6 +83,7 @@ nav a:hover{
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 #Home:hover{
@@ -186,6 +188,7 @@ nav a:hover{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transition: 0.5s;
 }
 
 .slate button:hover{
@@ -266,6 +269,7 @@ nav a:hover{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    transition: 0.5s;
 }
 
 .left-col button:hover{
@@ -318,6 +322,7 @@ nav a:hover{
     line-height: normal;
     margin: auto;
     margin-top: 130px;
+    transition: 0.5s;
 }
 
 .destination a:hover{
@@ -615,6 +620,7 @@ nav a:hover{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    transition: 0.5s;
 }
 
 .deal-btn button:hover{
@@ -682,6 +688,7 @@ nav a:hover{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    transition: 0.5s;
 }
 
 .deals button:hover{
@@ -748,6 +755,7 @@ nav a:hover{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    transition: 0.5s;
 }
 
 .ad-des button:hover{
@@ -843,6 +851,7 @@ nav a:hover{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    transition: 0.5s;
 }
 
 .sub-in button:hover{
@@ -871,10 +880,13 @@ nav a:hover{
     position: relative;
     left: 342px;
     top: 255px;
+    transition: 0.5s;
 }
 
 .offer-box:hover{
     cursor: pointer;
+    width: 486px;
+    height: 180px;
 }
 
 .offer-box p{
